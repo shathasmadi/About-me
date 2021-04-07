@@ -49,6 +49,9 @@ function question2() {
 
 }
 question2();
+
+function question3() {
+
 let q3 = prompt('are you live in Amman? ')
 //console.log(q3);
 q3 = q3.toLowerCase();
@@ -65,6 +68,8 @@ switch (q3) {
     default:
         alert('welcome');
 }
+}
+question3();
 
 let q4 = prompt('are you love makeup?')
 //console.log(q4);
