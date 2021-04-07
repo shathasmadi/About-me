@@ -71,6 +71,7 @@ switch (q3) {
 }
 question3();
 
+function question4() {
 let q4 = prompt('are you love makeup?')
 //console.log(q4);
 q4 = q4.toLowerCase();
@@ -87,6 +88,8 @@ switch (q4) {
     default:
         alert('ok no problem');
 }
+}
+question4();
 
 let q5 = prompt('do yo think i love makeup?')
 //console.log(q5);
