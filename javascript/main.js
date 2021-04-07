@@ -5,47 +5,50 @@ let userName = prompt('what is your name ?');
 alert('welcom ' + userName + ' in my webpage');
 let score = 0;
 
-function question1(){
+function question1() {
 
     let q1 = prompt('are you here')
-//console.log(q1);
-q1 = q1.toUpperCase();
-switch (q1) {
-    case ('YES'):
-    case ('Y'):
-        score++;
-        alert('Iam here');
-        break;
-    case ('NO'):
-    case ('N'):
-        alert('Iam in the home');
-        break;
-    default:
-        alert('ok no problem');
-}
+    //console.log(q1);
+    q1 = q1.toUpperCase();
+    switch (q1) {
+        case ('YES'):
+        case ('Y'):
+            score++;
+            alert('Iam here');
+            break;
+        case ('NO'):
+        case ('N'):
+            alert('Iam in the home');
+            break;
+        default:
+            alert('ok no problem');
+    }
 
 }
 
 question1();
 
+function question2() {
 
-let q2 = prompt('your age is greater than 22? ')
-//console.log(q2);
-q2 = q2.toLowerCase();
-switch (q2) {
-    case ('yes'):
-    case ('y'):
-        score++;
-        alert('your age is allowed in this page');
-        break;
-    case ('no'):
-    case ('n'):
-        alert('ok no problem ');
-        break;
-    default:
-        alert('welcome');
+    let q2 = prompt('your age is greater than 22? ')
+    //console.log(q2);
+    q2 = q2.toLowerCase();
+    switch (q2) {
+        case ('yes'):
+        case ('y'):
+            score++;
+            alert('your age is allowed in this page');
+            break;
+        case ('no'):
+        case ('n'):
+            alert('ok no problem ');
+            break;
+        default:
+            alert('welcome');
+    }
+
 }
-
+question2();
 let q3 = prompt('are you live in Amman? ')
 //console.log(q3);
 q3 = q3.toLowerCase();
