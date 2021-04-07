@@ -1,63 +1,57 @@
-body{
-    background-color: rgb(218, 211, 211);
-    margin: 0%;
+body {
+  background-color: rgb(218, 211, 211);
+  margin: 0%;
 }
 header {
-    background-color: rgb(122, 77, 91);
-    color: rgba(253, 253, 253, 0.917);
-    height: 100px;
-    text-align: center;
-
+  background-color: rgb(122, 77, 91);
+  color: rgba(253, 253, 253, 0.917);
+  height: 100px;
+  text-align: center;
 }
-header nav{ 
-    float: right;
-    width: 25%;
-    margin-top: 25px;
+header nav {
+  float: right;
+  width: 25%;
+  margin-top: 25px;
 }
-
 
 header h2 {
-    display: inline-block;
-    margin-left: 2%;
-
+  display: inline-block;
+  margin-left: 2%;
 }
- #firstt{
-    background-color: rgba(209, 197, 204, 0.5);
-    font-weight: bold;
-    
+#firstt {
+  background-color: rgba(209, 197, 204, 0.5);
+  font-weight: bold;
 }
-#firstt h3{
-    font-size: 40px;
-    padding-top: 30px;
-    color: rgba(12, 11, 11, 0.917);
+#firstt h3 {
+  font-size: 40px;
+  padding-top: 30px;
+  color: rgba(12, 11, 11, 0.917);
 }
 
 #first {
- 
-    background-color: rgba(209, 197, 204, 0.5);
-    font-weight: bold;
-    
+  background-color: rgba(209, 197, 204, 0.5);
+  font-weight: bold;
 }
 #first h4 {
-    font-size: 40px;
-    padding-top: 30px;
-    color: rgba(12, 11, 11, 0.917);
+  font-size: 40px;
+  padding-top: 30px;
+  color: rgba(12, 11, 11, 0.917);
 }
 #first h5 {
-    font-size: 40px;
-    color: rgba(12, 11, 11, 0.917);
+  font-size: 40px;
+  color: rgba(12, 11, 11, 0.917);
 }
 
 footer {
-    background-color: rgb(122, 77, 91);
-    color: rgba(253, 253, 253, 0.917);
-    height: 100px;
-    margin-bottom: auto;
+  background-color: rgb(122, 77, 91);
+  color: rgba(253, 253, 253, 0.917);
+  height: 100px;
+  margin-bottom: auto;
 }
 
-footer p{
-    text-align: center;
-    font-size: 30px;
-    vertical-align: middle;
-    line-height: 100px;
-}  
+footer p {
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 100px;
+}
