@@ -91,6 +91,7 @@ switch (q4) {
 }
 question4();
 
+function question5() {
 let q5 = prompt('do yo think i love makeup?')
 //console.log(q5);
 q5 = q5.toLowerCase();
@@ -107,6 +108,8 @@ switch (q5) {
     default:
         alert('ok no problem');
 }
+}
+question5();
 let guessNum = 0;
 for (let i = 1; i <= 4; i++) {
     guessNum = parseInt(prompt('Guess a number between 1-10 I\'ll tell you what\'s my number'));
