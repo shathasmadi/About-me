@@ -110,6 +110,8 @@ switch (q5) {
 }
 }
 question5();
+
+function question6() {
 let guessNum = 0;
 for (let i = 1; i <= 4; i++) {
     guessNum = parseInt(prompt('Guess a number between 1-10 I\'ll tell you what\'s my number'));
@@ -134,6 +136,10 @@ for (let i = 1; i <= 4; i++) {
         break;
     }
 }
+}
+question6();
+
+
 let guessFav = ['piano', 'shopping'];
 console.log(guessFav);
 
@@ -154,5 +160,6 @@ for (let i = 1; i <= 6; i++) {
 
 }
 alert('welcom ' + userName + 'to visit my website your score is ' + score + '/7');
+
 
 
